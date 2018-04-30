@@ -1,7 +1,7 @@
 import lyricsgenius as genius
 
-
-access = 'W4WgSeE-LBWRQFUM6QoSSDygkiShXJZGhekL0e94pptrH-L_VuK3pJx_Xj-D4gsd'
+# access Genius API
+access = ''
 api = genius.Genius(access)
 artist = api.search_artist('Death (metal band)')
 
