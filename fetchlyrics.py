@@ -24,7 +24,7 @@ individual_thought_patterns = ['Overactive Imagination', 'In Human Form', 'Jealo
                                 'Trapped in a Corner', 'Nothing Is Everything', 'Mentally Blind', \
                                 'Individual Thought Patterns', 'Destiny', 'Out of Touch', \
                                 'The Philosopher']
-
+ 
 symbolic = ['Symbolic', 'Zero Tolerance', 'Empty Words', 'Sacred Serenity', '1,000 Eyes', \
             'Without Judgement', 'Crystal Mountain', 'Misanthrope', 'Perennial Quest']
 
