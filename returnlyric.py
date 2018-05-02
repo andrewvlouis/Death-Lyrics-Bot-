@@ -22,7 +22,7 @@ def return_song(songs, length):
 
 # return a random lyric from a list of lyrics
 def random_lyrics(song):
-    song = [s + '.\n' for s in ' '.join(song).split('.\n')[:-1]]
+    song = [s + '.\n' for s in ''.join(song).split('.\n')[:-1]]
     i = random.randint(1,len(song)-1)
     if song[i] != '\n': 
         return(song[i])
@@ -34,8 +34,9 @@ def main():
     file = open('/Users/andrewvlouis/Documents/GitHub/lyricsbot_death/Lyrics_Death.txt', mode = 'r')
     file = list(file)
     song = return_song(file, 64)
-    return random_lyrics(song)
+    print(random_lyrics(song))
 
 
 if __name__ == '__main__':
     main()
+
