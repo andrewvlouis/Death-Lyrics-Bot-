@@ -13,13 +13,13 @@ file = list(file)
 
 def main():
     while True:
-        song = returnlyric.return_song(file, 55)
+        song = returnlyric.return_song(file, 64)
         lyric = returnlyric.random_lyrics(song)
         try:
             api.update_status(lyric)
         except tweepy.TweepError as error:
             print(error.reason)
-        sleep(900)
+        sleep(3600)
 
 
 if __name__ == '__main__':
